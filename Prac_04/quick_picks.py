@@ -14,3 +14,4 @@ for i in range(0, number_picks):
         picks.append(pick)
     picks.sort()
     print("{:2} {:2} {:2} {:2} {:2} {:2}".format(picks[0], picks[1], picks[2], picks[3], picks[4], picks[5]))
+# not sure how I would go about strong them in constants
