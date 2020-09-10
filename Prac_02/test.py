@@ -1,2 +1,2 @@
-name = "chop c c cc c "
-print(name.title())
+d = {'a': 1, 'b': 2, 'c': 3}
+print(d.get('a'))
