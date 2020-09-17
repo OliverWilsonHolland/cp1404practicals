@@ -6,9 +6,9 @@ print("My guitars!")
 name = str(input("Name: "))
 while name != "":
     year = int(input("Year: "))
-    cost = int(input("Cost: $"))
+    cost = float(input("Cost: $"))
     guitars.append(Guitar(name, year, cost))
-    print("")
+    print("{}, ({}): ${:.2f} added".format(name, year, cost))
     name = input("Name: ")
 print("These are my guitars:")
 for i in range(0, len(guitars)):
