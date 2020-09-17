@@ -1,6 +1,6 @@
 """
 CP1404/CP5632 Practical
-emails program
+emails name program
 """
 email_names = {}
 email = str(input("Email:"))
